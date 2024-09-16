@@ -2,7 +2,6 @@ div {
     max-width: 315px;
     margin: 10px;
     display: inline-block;
-    align-items: center;
   }
   
   .example-header-image {
