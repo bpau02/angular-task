@@ -14,7 +14,7 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   getData(): Observable<any> {
-    const url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=c5egeSfPNkpY34ABA1X4jkS1KBJnMvfG';
+    const url = 'https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=';
     return this.http.get<any>(url);
   }
 }
